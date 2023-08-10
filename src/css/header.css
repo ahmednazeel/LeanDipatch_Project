@@ -1,0 +1,76 @@
+header {
+  background-color: white;
+}
+.phone-contact {
+  padding-block: 0px 5px;
+  background-color: var(--primary);
+}
+.phone-contact span {
+  width: fit-content;
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  margin-block-start: -7px;
+  gap: 2px;
+}
+.phone-contact span a::after{
+  content: "";
+  border-right: 4px solid var(--secondary);
+  margin-left: 5px;
+}
+
+.header-content {
+  padding: 20px;
+}
+
+.nav-list span:hover {
+  color: var(--primary);
+}
+.book_now {
+  background-color: var(--primary) !important;
+  border: none !important;
+}
+.book_now:hover {
+  background-color: var(--secondary) !important;
+}
+a.active span,
+.overview {
+  color: var(--primary);
+} /* navlink Element */
+@media (max-width: 768px) {
+  div.show-large-device{
+    display: none !important;
+  }
+  .menu-pars {
+    display: block;
+    font-size: 28px;
+    color: var(--primary);
+  }
+  .header {
+    position: relative;
+  }
+  .nav-list {
+    position: absolute;
+    z-index: 10;
+    top: 144px;
+    flex-direction: column;
+    left: -350px;
+    padding: 0;
+    height: calc(100vh - 139px);
+    padding-left: 14px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  }
+  .nav-list.show{
+    left: 0;
+    background-color: #fff;
+  }
+}
+@media (min-width:769px) {
+  div.show-small-device {
+    display: none !important;
+  }
+  .menu-pars {display: none;}
+
+}
+/*     font-size: var(--fontSize_1-5);
+    color: var(--primary); */

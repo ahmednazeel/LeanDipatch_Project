@@ -1,0 +1,52 @@
+.plans > h1 {
+  margin-block-start: 90px;
+}
+.plans > p {
+  width: fit-content;
+}
+.plans-content {
+  overflow-x: scroll;
+  padding-inline: 20px;
+}
+.plans-content:hover::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  height: 15px;
+  width: 10px;
+  display: block;
+}
+.plans-scroll {
+  width: 1400px;
+  margin: auto;
+}
+
+.plans-content li {
+  height: 51px;
+}
+
+.plan-list {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: white;
+  padding: 0;
+}
+.plan-title {
+  border-radius: 20px 20px 0 0;
+  height: 126px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+.plan-desc li {
+  margin-bottom: 5px;
+  font-size: 13px;
+  border-bottom: 1px solid #ddd;
+  line-height: 120%;
+  color: gray;
+}
+.plan-list li {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,32 @@
+.footer {
+    background-color: #424243;
+    padding: 20px;
+}
+.content-company {background-color: white; padding: 20px;}
+.content-company button {margin:0; background-color: var(--primary);}
+
+.content-company,
+.footer-links {width: 50%;}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 12px;
+}
+
+.footer-links a{display: block;}
+.page-sec {padding: 0;}
+@media (max-width:789px) {
+    .footer-content{
+        flex-direction: column;
+    }
+    .content-company,
+    .footer-links {width: 100%; padding: 30px; }
+
+}
+@media (max-width:375px) {
+    .footer-links { padding: 5px; }
+    
+}

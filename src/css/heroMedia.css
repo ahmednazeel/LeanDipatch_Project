@@ -1,0 +1,16 @@
+.hero-media .hero-page {
+    height: fit-content !important; 
+    padding-block: 90px; 
+    margin-bottom: 90px;
+}
+.media-content {margin-block: 40px;}
+.card-media {
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.card-media>div{width: 50%;}
+@media (max-width:600px) {
+    .card-media{flex-direction: column;}
+    .card-media>div{width: 100%;}
+
+}

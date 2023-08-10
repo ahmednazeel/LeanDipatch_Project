@@ -1,0 +1,16 @@
+
+.value-page .hero-page {
+    height: fit-content; 
+    padding-block:90px;
+    
+}
+.value-page .approved{
+    margin-block: 50px;
+}
+.value-page .banner-page {
+    padding-inline: 15px;
+}
+.value-page .banner-page p:last-child {
+    width: fit-content;
+    margin-inline: auto;
+}

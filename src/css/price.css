@@ -1,0 +1,57 @@
+.price-banner {
+    margin-block: 40px;
+}
+.banner-one img{ width: 100%;}
+@media (max-width:768px) {
+    .banner-content {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .banner-content h4{font-size: 20px;}
+}
+.accordion-button::after {
+    color: var(--secondary) !important;
+}
+.accordion-button {
+    background-color:white !important;
+    border: none !important;
+    color: var(--gray-color) !important;
+    box-shadow: none !important;
+}
+.contact {margin-block: 40px;}
+.form{
+    width: fit-content;
+    margin: auto;
+    background-color: var(--secondary);
+    padding: 7px 12px;
+    border-radius: 8px;
+}
+.contact .form input {
+    height: 40px;
+    border: none;
+}
+.contact .form input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 1.8rem;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.contact .form input[type="submit"] {
+    width: 70px;
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -ms-border-radius: 0px 5px 5px 0px;
+    -o-border-radius: 0px 5px 5px 0px;
+}
+@media (max-width:451px) {
+    .form{flex-direction: column;}
+    .contact .form input[type="submit"],
+    .contact .form input[type="text"]{width: 100%  }
+    .contact h4{font-size: 18px !important;}
+}
